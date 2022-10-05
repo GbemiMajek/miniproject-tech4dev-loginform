@@ -13,5 +13,63 @@ body {
 }
 
 .main-page {
- margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: aliceblue;
+}
+
+.account-form {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.fourth-input {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.enter-name {
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 5px 100px 5px 10px;
+  display: inline-block;
+}
+
+.enter-email {
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 5px 100px 5px 10px;
+  display: inline-block;
+}
+
+.enter-password {
+  /* margin-bottom: 30px; */
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 5px 100px 5px 10px;
+  display: inline-block;
+}
+
+.signup-btn {
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.password-reset {
+  color: cornflowerblue;
+  text-decoration: none;
 }
